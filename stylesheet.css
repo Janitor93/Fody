@@ -1,0 +1,194 @@
+body, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  padding: 20px 0;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+.logo {
+  float: left;
+}
+.nav {
+  float: right;
+  padding-top: 5px
+}
+.nav li {
+  float: left;
+  margin-right: 21px;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+.nav a {
+  text-transform: uppercase;
+  font: 17px Arial, sans-serif;
+  color: #FFF;
+}
+.nav a:hover {
+  color: #F37C58;
+}
+#main {
+  height: 700px;
+  padding-top: 352px;
+  text-align: center;
+  color: #FFF;
+  background:  url("img/main_shadow.png"), url("img/main.png");
+  background-position: center bottom, center bottom;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain, cover;
+  -moz-background-size: contain, cover;
+  -o-background-size: contain, cover;
+  background-size: contain, cover;
+}
+#main h3 {
+  font: 40px "Oleo Script", sans-serif;
+  margin-bottom: 10px;
+}
+
+#main h1 {
+  font: 90px Lucida, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.main_btn {
+  background: #F69679;
+  width: 280px;
+  height: 70px;
+  padding: 25px 80px;
+  font: bold 15px Arial, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+.main_btn:hover {
+  background: #F37C58;
+  color: #FFF;
+}
+#main h5 {
+  font: 13px Arial, sans-serif;
+  text-transform: uppercase;
+}
+.box {
+  padding: 100px 0;
+}
+#icons {
+  text-align: center;
+}
+h3.title {
+  font: bold 14px Arial, sans-serif;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.icon {
+  width: 29%;
+  float: left;
+  padding: 127px 20px 0 20px;
+}
+.icon p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #000;
+}
+.inspired {
+  background: url("img/inspired.png") no-repeat center top;
+}
+.rewarded {
+  background: url("img/rewarded.png") no-repeat center top;
+}
+.social {
+  background: url("img/social.png") no-repeat center top;
+}
+hr {
+  border: none;
+  color: #F69679;
+  background-color: #F69679;
+  height: 2px;
+  width: 88px;
+}
+#review {
+  height: 462px;
+  background: url("img/rectangle_shadow.png"), url("img/rectangle.png");
+  background-position: center bottom, center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cuisines {
+  text-align: center;
+}
+.meal {
+  padding: 100px 0 0 0;
+  height: 125px;
+  width: 20%;
+  float: left;
+}
+.italian {
+  background: url("img/italian.png") no-repeat center center;
+  background-size: cover;
+}
+.indian {
+  background: url("img/indian.png") no-repeat center center;
+  background-size: cover;
+}
+.french {
+  background: url("img/french.png") no-repeat center center;
+  background-size: cover;
+}
+.steakhouse {
+  background: url("img/steakhouse.png") no-repeat center center;
+  background-size: cover;
+}
+.seafood {
+  background: url("img/seafood.png") no-repeat center center;
+  background-size: cover;
+}
+.sushi {
+  background: url("img/sushi.png") no-repeat center center;
+  background-size: cover;
+}
+.mexican {
+  background: url("img/mexican.png") no-repeat center center;
+  background-size: cover;
+}
+.chinese {
+  background: url("img/chinese.png") no-repeat center center;
+  background-size: cover;
+}
+.pizza {
+  background: url("img/pizza.png") no-repeat center center;
+  background-size: cover;
+}
+.american {
+  background: url("img/american.png") no-repeat center center;
+  background-size: cover;
+}
+.meal h3 {
+  /*margin-top: 100px;*/
+  font: bold 26px Arial, sans-serif;
+  text-transform: uppercase;
+  color: #FFF;
+}
