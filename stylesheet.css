@@ -73,14 +73,14 @@ a {
   margin-bottom: 30px;
 }
 .main_btn {
-  background: #F69679;
+  background: none;
   width: 280px;
   height: 70px;
   padding: 25px 80px;
   font: bold 15px Arial, sans-serif;
   text-transform: uppercase;
   cursor: pointer;
-  border: none;
+  border: solid 1px #FFF;
   border-radius: 3px;
   color: #FFF;
   margin-bottom: 30px;
@@ -191,4 +191,27 @@ hr {
   font: bold 26px Arial, sans-serif;
   text-transform: uppercase;
   color: #FFF;
+}
+#cuisines .container {
+  margin-bottom: 30px;
+}
+.stat_wrap {
+  padding: 60px 0;
+}
+.stat {
+  width: 20%;
+  float: left;
+}
+.stat h4 {
+  font: bold 35px Helvetica, sans-serif;
+  margin-bottom: 3px;
+}
+.stat p {
+  margin: 0;
+  font: 12px Arial, sans-serif;
+  color: #575757;
+}
+#cuisines:after {
+  content: " ";
+  margin-bottom: 60px;
 }
