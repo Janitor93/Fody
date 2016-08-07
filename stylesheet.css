@@ -141,6 +141,9 @@ hr {
   text-align: center;
   padding-top: 60px;
 }
+#cuisines_wrap {
+  background-color: rgba(0, 0, 0, 1);
+}
 .meal {
   padding: 100px 0 0 0;
   height: 125px;
@@ -186,6 +189,12 @@ hr {
 .american {
   background: url("img/american.png") no-repeat center center;
   background-size: cover;
+}
+.meal:hover {
+  /*background-color: #000;*/
+  /*background-color: rgba(0, 0, 0, .5);*/
+  transition: opacity 1s;
+  opacity: 0.5;
 }
 .meal h3 {
   /*margin-top: 100px;*/
@@ -242,7 +251,7 @@ hr {
 }
 #slides {
   color: #FFF;
-  font: 25px/55px Arial, sans-serif;
+  font: italic 25px/55px Arial, sans-serif;
   position: relative;
   /*height: 150px;*/
   margin-top: 176px;
@@ -252,10 +261,10 @@ hr {
 .slide {
   z-index: 1;
   opacity: 0;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
   box-sizing: border-box;
   position: absolute;
   top: 0;
