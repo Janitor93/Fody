@@ -236,3 +236,32 @@ hr {
 #footer span {
   color: #000;
 }
+/*---------------------------------*/
+#review {
+  text-align: center;
+}
+#slides {
+  color: #FFF;
+  font: 25px/55px Arial, sans-serif;
+  position: relative;
+  /*height: 150px;*/
+  margin-top: 176px;
+  margin-left: 150px;
+  width: 880px;
+}
+.slide {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
