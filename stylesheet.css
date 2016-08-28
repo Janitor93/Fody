@@ -143,21 +143,37 @@ hr {
 }
 #cuisines_wrap {
   background-color: rgba(0, 0, 0, 1);
+  height: 400px;
+  overflow: hidden;
 }
 .meal {
-  padding: 100px 0 0 0;
-  height: 125px;
+  height: 50%;
   width: 20%;
   float: left;
   cursor: pointer;
+  overflow: hidden;
+  /*background-size: 100% 100%;*/
   transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -webkit-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
 }
+.img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: transform 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
 .italian {
   background: url("img/italian.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .italian:hover {
   background:
@@ -165,11 +181,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/italian.png");
+    url("img/italian.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .indian {
   background: url("img/indian.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .indian:hover {
   background:
@@ -177,11 +200,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/indian.png");
+    url("img/indian.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .french {
   background: url("img/french.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .french:hover {
   background:
@@ -189,11 +219,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/french.png");
+    url("img/french.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .steakhouse {
   background: url("img/steakhouse.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .steakhouse:hover {
   background:
@@ -201,11 +238,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/steakhouse.png");
+    url("img/steakhouse.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .seafood {
   background: url("img/seafood.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .seafood:hover {
   background:
@@ -213,11 +257,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/seafood.png");
+    url("img/seafood.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .sushi {
   background: url("img/sushi.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .sushi:hover {
   background:
@@ -225,11 +276,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/sushi.png");
+    url("img/sushi.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .mexican {
   background: url("img/mexican.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .mexican:hover {
   background:
@@ -237,11 +295,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/mexican.png");
+    url("img/mexican.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .chinese {
   background: url("img/chinese.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .chinese:hover {
   background:
@@ -249,11 +314,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/chinese.png");
+    url("img/chinese.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .pizza {
   background: url("img/pizza.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .pizza:hover {
   background:
@@ -261,11 +333,18 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/pizza.png");
+    url("img/pizza.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .american {
   background: url("img/american.png") no-repeat center center;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  transform:scale(1.0);
 }
 .american:hover {
   background:
@@ -273,14 +352,13 @@ hr {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("img/american.png");
-}
-.meal:hover {
-  background-position: center;
-  background-size: 110%;
+    url("img/american.png") no-repeat;
+    transform:scale(1.1);
+    background-position: center;
 }
 .meal h3 {
-  font: bold 26px Arial, sans-serif;
+  /*margin: 50% 0;*/
+  font: bold 25px/200px Arial, sans-serif;
   text-transform: uppercase;
   color: #FFF;
 }
